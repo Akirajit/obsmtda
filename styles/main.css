@@ -439,10 +439,10 @@ footer {
 /* CONTACTO */
 .intro-contacto{
     color: white;
-    background-image: url(../img/contacto.png);
+    background-image: url(../img/capacitacin.jpg);
     min-height: 72vh;
     background-size: cover;
-     
+    background-attachment: fixed; 
 }
 .intro-contacto-title {
     font-size: 45px;
