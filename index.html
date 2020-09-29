@@ -7,54 +7,65 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/main3.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <title>Observatorio Marcelo T. de Alvear</title>
   </head>
   <body>
+
+    <!-- HEADER -->
     <header>
-      <nav>
-        <a href="#"> <img src="img/logo.PNG" alt="logo" id="img-logo" /></a>
-        <ul>
+      <a href="#nav" class="open"> <img src="img/open.svg" alt="menu" ></a>
+      <nav id="nav">
+        <div id="container-logo">
+          <a href="index.html" id="link-logo"> <img src="img/logo.PNG" alt="logo" id="img-logo" />
+          <h4 id="img-txt">Observatorio de <br> Economía Política y Social
+            <br><span>Marcelo T. de Alvear</span></h4>
+          </a>  
+        </div>
+        <a href="#" class="close"> <img src="img/close.svg" alt="close" ></a>
+        <ul class="navbar" id="navbar">
           <li>
-            <a href="#">Institucional</a>
+            <a href="institucional.html">Institucional</a>
           </li>
           <li>
-            <a href="#">Articulos</a>
+            <a href="articulos.html">Artículos</a>
           </li>
           <li>
-            <a href="#">Informes</a>
+            <a href="actividades.html">Actividades</a>
           </li>
           <li>
-            <a href="#">Capacitacion</a>
+            <a href="capacitacion.html">Capacitación</a>
           </li>
           <li>
-            <a href="#">Consultoría</a>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
+            <a href="contacto.html">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
+     <!-- END OF HEADER -->
 
+     <!-- HERO -->
     <section class="hero">
       <div class="container">
         <h1 class="title">
-          Observatorio multidisciplinario
+          Observatorio de <br> Economía Política y Social<br>
           <span>Marcelo T. de Alvear</span>
         </h1>
         <p class="title-text">
-          El observatorio Multidisciplinario Marcelo T. de Alvear nace en el añi
+          El observatorio Multidisciplinario Marcelo T. de Alvear nace en el año
           2020 con el objetivo de, mediante un abordaje multidisciplinario,
           analizar la realidad actual dentro del marco de la economía política y
           social, elaborando investigaciones, informes técnicos, seminarios y
           cursos de capacitación, nucleando este contenido de forma tal que
           resulte accesible al público en general.
         </p>
-        <a href="#" class="hero-button">Quienes somos?</a>
+        <a href="institucional.html" class="hero-button">Quienes somos?</a>
       </div>
     </section>
+   <!-- END OF HERO -->
 
+
+    <!-- DETAILS -->
     <section id="details" class="details-list">
       <article class="detail">
         <figure class="detail-imageContainer">
@@ -104,7 +115,9 @@
         </p>
       </article>
     </section>
+     <!-- END OF DETAILS -->
 
+     <!-- FOOTER -->
     <footer id="footer">
       <div class="socialNetworks">
         <h4>Seguinos en:</h4>
@@ -119,15 +132,14 @@
               <img src="img/instagram.svg" alt="Instagram" 
             /></a>
           </li>
-          <!-- <li>
-            <a href="#"> <img src="http://placehold.it/30x30"" alt=""></a>
-          </li> -->
         </ul>
       </div>
-      <div>
+      <div id="footer-contacto">
         <h4>Contacto</h4>
         <small>info@ObsMTDA.com</small>
       </div>
     </footer>
+    <!-- END OF  FOOTER -->
+    
   </body>
 </html>
