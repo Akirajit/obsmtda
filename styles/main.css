@@ -33,9 +33,6 @@ body {
 /* header {
     width: 100%;
 } */
-header .open , header .close {
-    display: none;
-}
 
 #container-logo {
    
@@ -464,48 +461,12 @@ footer {
 /* ---------------------- */
 /* MOBILE */
 @media screen and (max-width: 479px) {
-    header nav {
-        z-index: 1;
-        opacity: 0.9;
-        display: none;
-        position: fixed;
-        padding: 0;
-        left: -100%;
-        width: 100%;
-        height: 100vh;
-        background-color: black;   
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: left 0.5s;
-    }
-    header .open,
-    header .close {
-        display: block;
-        position: absolute;
-        top: 40px;
-        left: 0px;   
-    }
-
-    header .close {
-        left: 10%;   
-    }
-    header .open img,
-    header .close img{
-        width: 30px; 
-    }
-    #nav:target {
-        left: 0;
-    }
-    
     #container-logo {
         justify-content: flex-start;
     }
-    header ul {
+    /* header ul {
         display: none;
-    }
+    } */
     .hero h1 {
         width: 100%;
         font-size: 35px;
@@ -528,43 +489,9 @@ footer {
 
 /* TABLET */
 @media screen and (max-width: 767px) and (min-width: 480px){
-    header nav {
-        z-index: 1;
-        opacity: 0.9;
+    /* header ul {
         display: none;
-        position: fixed;
-        padding: 0;
-        left: -100%;
-        width: 100%;
-        height: 100vh;
-        background-color: black;   
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: left 0.5s;
-    }
-    header .open,
-    header .close {
-        display: block;
-        position: absolute;
-        top: 40px;
-        left: 0px;   
-    }
-    header .close {
-        left: 10%;   
-    }
-    header .open img,
-    header .close img{
-        width: 30px; 
-    }
-    #nav:target {
-        left: 0;
-    }
-    header ul {
-        display: none;
-    }
+    } */
     .hero h1 {
         width: 100%;
         font-size: 40px;
@@ -577,41 +504,7 @@ footer {
 
 /* DESKTOP */
 @media screen and (max-width: 956px) and (min-width: 768px){
-    header nav {
-        z-index: 1;
-        opacity: 0.9;
+    /* header ul {
         display: none;
-        position: fixed;
-        padding: 0;
-        left: -100%;
-        width: 100%;
-        height: 100vh;
-        background-color: black;   
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: left 0.5s;
-    }
-    header .open,
-    header .close {
-        display: block;
-        position: absolute;
-        top: 40px;
-        left: 0px;   
-    }
-    header .close {
-        left: 10%;   
-    }
-    header .open img,
-    header .close img{
-        width: 30px; 
-    }
-    #nav:target {
-        left: 0;
-    }
-    header ul {
-        display: none;
-    }
+    } */
 }
